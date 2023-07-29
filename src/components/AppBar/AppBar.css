@@ -1,0 +1,10 @@
+.action-icon {
+    @apply py-0.5 cursor-pointer text-primary-text;
+    width: 45px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.action-icon:hover {
+    background-color: #383838;
+}
