@@ -14,8 +14,15 @@
     "allowlist": {
       "all": true,
       "shell": {
-        "all": false,
-        "open": true
+        "all": true,
+        "open": true,
+        "scope": [
+          {
+            "name": "node",
+            "cmd": "node",
+            "args": ["--version"]
+          }
+        ]
       }
     },
     "bundle": {

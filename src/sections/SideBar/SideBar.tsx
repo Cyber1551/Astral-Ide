@@ -1,6 +1,5 @@
 import { useState } from "react";
 import { IFile } from "../types/file";
-import { open } from "@tauri-apps/api/dialog";
 
 const SideBar = () => {
     const [projectName, setProjectName] = useState("");
@@ -12,7 +11,7 @@ const SideBar = () => {
             <div className="bg-border-primary w-0.5 h-full group-hover:bg-sky-500 cursor-col-resize"></div>
         </div>
         <div className="sidebar-header flex items-center justify-between p-4 py-2.5 text-primary-text">
-            Test
+
         </div>
         <div className="code-structure">
 

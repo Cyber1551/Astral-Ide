@@ -1,6 +1,8 @@
-import AppBar from "./components/AppBar/AppBar";
-import ContentArea from "./components/ContentArea/ContentArea";
-import SideBar from "./components/SideBar/SideBar";
+import AppBar from "./sections/AppBar/AppBar";
+import ContentArea from "./sections/ContentArea/ContentArea";
+import SideBar from "./sections/SideBar/SideBar";
+
+
 
 function App() {
 
